@@ -1,0 +1,11 @@
+This project collects and (will later analyse) weather data for the Auckland
+region.
+
+weather.db    -- A blank SQLite database to log data with.
+
+weather.py    -- The script that logs data from the Metservice JSON
+                 webservice. This script works for Python 2.5, originally I
+                 worked on a version for Python 2.6, but the only major
+                 difference is the 2.5 version not using the 'with' statement.
+
+weather.sql   -- A file detailing the schema of the database.
